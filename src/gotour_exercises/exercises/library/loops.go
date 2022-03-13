@@ -1,4 +1,4 @@
-package main
+package library
 
 import (
 	"fmt"
@@ -16,6 +16,6 @@ func Sqrt(x float64) float64 {
 	return z
 }
 
-func main() {
+func RunSqrt() {
 	fmt.Println(Sqrt(2))
 }

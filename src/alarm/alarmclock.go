@@ -21,11 +21,11 @@ func main() {
 		wg.Done()
 	}()
 	go func() {
-		Remind("time to eat", 30*time.Second)
+		Remind("time to work", 30*time.Second)
 		wg.Done()
 	}()
 	go func() {
-		Remind("time to eat", 60*time.Second)
+		Remind("time to sleep", 60*time.Second)
 		wg.Done()
 	}()
 
